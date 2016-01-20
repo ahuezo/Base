@@ -1,0 +1,17 @@
+.VueTables__sort-icon {
+    float: left !important;
+    margin-right: 5px;
+    &:before {
+        .fa-icon;
+        color: @gray-light;
+        content: "\f0dc";
+    }
+    &.glyphicon-chevron-down:before {
+        color: @gray-dark;
+        content: "\f0dd";
+    }
+    &.glyphicon-chevron-up:before {
+        color: @gray-dark;
+        content: "\f0de";
+    }
+}
