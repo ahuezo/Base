@@ -26,6 +26,7 @@ class TranslationSeeder extends Seeder
             ['id' => '18', 'group' => 'db', 'key' => 'Go to our homepage?', 'created_at' => '2014-02-28 16:40:40', 'updated_at' => '2014-02-28 16:40:40'],
             ['id' => '19', 'group' => 'db', 'key' => 'Sorry, this page was not found', 'created_at' => '2014-02-28 16:42:18', 'updated_at' => '2014-02-28 16:42:18'],
             ['id' => '20', 'group' => 'db', 'key' => 'Sorry, a server error occurred', 'created_at' => '2014-02-28 16:44:46', 'updated_at' => '2014-02-28 16:44:46'],
+            ['id' => '21', 'group' => 'db', 'key' => 'Open navigation', 'created_at' => '2016-02-15 16:44:46', 'updated_at' => '2016-02-15 16:44:46'],
         ];
 
         $typi_translation_translations = [
@@ -86,6 +87,9 @@ class TranslationSeeder extends Seeder
             ['id' => '58', 'translation_id' => '20', 'locale' => 'fr', 'translation' => 'Désolé, une erreur serveur est survenue', 'created_at' => '2014-02-28 16:44:46', 'updated_at' => '2014-02-28 16:44:46'],
             ['id' => '59', 'translation_id' => '20', 'locale' => 'nl', 'translation' => 'Sorry, er is een serverfout opgetreden', 'created_at' => '2014-02-28 16:44:46', 'updated_at' => '2014-02-28 16:44:46'],
             ['id' => '60', 'translation_id' => '20', 'locale' => 'en', 'translation' => 'Sorry, a server error occurred', 'created_at' => '2014-02-28 16:44:46', 'updated_at' => '2014-02-28 16:44:46'],
+            ['id' => '61', 'translation_id' => '21', 'locale' => 'fr', 'translation' => 'Aller à la navigation', 'created_at' => '2016-02-15 16:44:46', 'updated_at' => '2016-02-15 16:44:46'],
+            ['id' => '62', 'translation_id' => '21', 'locale' => 'nl', 'translation' => 'Open navigatie', 'created_at' => '2016-02-15 16:44:46', 'updated_at' => '2016-02-15 16:44:46'],
+            ['id' => '63', 'translation_id' => '21', 'locale' => 'en', 'translation' => 'Open navigation', 'created_at' => '2016-02-15 16:44:46', 'updated_at' => '2016-02-15 16:44:46'],
         ];
 
         DB::table('translations')->insert($typi_translations);
