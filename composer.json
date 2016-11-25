@@ -1,5 +1,5 @@
 {
-    "name": "ahuezo/typi-base",
+    "name": "typicms/base",
     "description": "Multilingual CMS built with Laravel 5",
     "keywords": ["cms", "multilingual", "laravel", "typi"],
     "license": "MIT",
@@ -25,26 +25,78 @@
         "rinvex/repository": "2.0.*",
         "spatie/laravel-permission": "~1.5.0",
         "typicms/laravel-translatable-bootforms": "dev-master",
-        "ahuezo/typi-nestablecollection": "~1.1.1",
-        "ahuezo/typi-core": "~3.0.0",
-        "ahuezo/typi-objects": "~3.0.0",
-        "ahuezo/typi-blocks": "~3.0.0",
-        "ahuezo/typi-dashboard": "~3.0.0",
-        "ahuezo/typi-files": "~3.0.0",
-        "ahuezo/typi-galleries": "~3.0.0",
-        "ahuezo/typi-roles": "~3.0.0",
-        "ahuezo/typi-history": "~3.0.0",
-        "ahuezo/typi-menus": "~3.0.0",
-        "ahuezo/typi-pages": "~3.0.0",
-        "ahuezo/typi-settings": "~3.0.0",
-        "ahuezo/typi-sitemap": "~3.0.0",
-        "ahuezo/typi-translations": "~3.0.0",
-        "ahuezo/typi-users": "~3.0.0"
+        "typicms/typi-nestablecollection": "~1.1.1",
+        "ahuezo/typi-core": "dev-master",
+        "ahuezo/typi-objects": "dev-master",
+        "ahuezo/typi-blocks": "dev-master",
+        "ahuezo/typi-dashboard": "dev-master",
+        "ahuezo/typi-files": "dev-master",
+        "ahuezo/typi-galleries": "dev-master",
+        "ahuezo/typi-roles": "dev-master",
+        "ahuezo/typi-history": "dev-master",
+        "ahuezo/typi-menus": "dev-master",
+        "ahuezo/typi-pages": "dev-master",
+        "ahuezo/typi-settings": "dev-master",
+        "ahuezo/typi-sitemap": "dev-master",
+        "ahuezo/typi-translations": "dev-master",
+        "ahuezo/typi-users": "dev-master"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/ahuezo/typi-base"
+            "url": "https://github.com/ahuezo/typi-core"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahuezo/typi-objects"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahuezo/typi-blocks"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahuezo/typi-dashboard"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahuezo/typi-files"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahuezo/typi-galleries"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahuezo/typi-roles"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahuezo/typi-history"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahuezo/typi-menus"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahuezo/typi-pages"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahuezo/typi-settings"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahuezo/typi-sitemap"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahuezo/typi-translations"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahuezo/typi-users"
         }
     ],
     "require-dev": {
