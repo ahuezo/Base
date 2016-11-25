@@ -1,7 +1,7 @@
 {
     "name": "ahuezo/typi-base",
     "version": "2.5.0",
-    "dist": {
+    "source": {
         "type": "vcs",
         "url": "https://github.com/ahuezo/typi-base"
     }
