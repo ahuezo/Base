@@ -24,7 +24,7 @@
         "roumen/feed": "~2.10.1",
         "rinvex/repository": "2.0.*",
         "spatie/laravel-permission": "~1.5.0",
-        "ahuezo/laravel-translatable-bootforms": "dev-master",
+        "typicms/laravel-translatable-bootforms": "dev-master",
         "ahuezo/typi-nestablecollection": "~1.1.1",
         "ahuezo/typi-core": "~3.0.0",
         "ahuezo/typi-objects": "~3.0.0",
@@ -87,7 +87,7 @@
         ]
     },
     "config": {
-        "preferred-install": "dist"
+        "preferred-install": "dev"
     },
     "minimum-stability": "stable",
     "prefer-stable": true
