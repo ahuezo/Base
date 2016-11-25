@@ -43,8 +43,8 @@
     },
     "repositories": [
         {
-            "type": "git",
-            "url": "https://github.com/ahuezo/typi-base.git"
+            "type": "vcs",
+            "url": "https://github.com/ahuezo/typi-base"
         }
     ],
     "require-dev": {
